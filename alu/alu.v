@@ -1,5 +1,5 @@
 module ALU(input [7:0] in1, in2,
-           input operation,
+           input [1:0] operation,
            output zero,
            output [7:0] result
            output overflow,
